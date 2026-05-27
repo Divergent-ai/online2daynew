@@ -3,6 +3,7 @@ import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import PageTransition from '@/components/PageTransition';
+import MusicToggle from '@/components/MusicToggle';
 
 export const metadata: Metadata = {
   title: 'Online Today | TikTok Creator Agency',
@@ -41,6 +42,7 @@ export default function RootLayout({
           {children}
         </PageTransition>
         <Footer />
+        <MusicToggle />
       </body>
     </html>
   );
