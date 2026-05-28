@@ -37,7 +37,7 @@ const FacebookIcon = ({ size = 24 }: { size?: number }) => (
 const platforms = [
   {
     name: 'TikTok',
-    handle: '@online2day_agency',
+    handle: '@onlinetodayagency',
     description:
       'Our main home. Watch creators go live, see behind-the-scenes content, and keep up with everything happening at the agency. This is where the magic happens.',
     icon: TikTokIcon,
@@ -46,11 +46,12 @@ const platforms = [
     borderColor: 'rgba(255,0,80,0.3)',
     tag: 'Main Platform',
     tagColor: 'var(--neon-pink)',
-    comingSoon: true,
+    comingSoon: false,
+    href: 'https://www.tiktok.com/@onlinetodayagency?is_from_webapp=1&sender_device=pc',
   },
   {
     name: 'Instagram',
-    handle: '@onlinetoday_agency',
+    handle: '@online_today_agency',
     description:
       'Creator highlights, tips for going live, and gorgeous content from our creator community. Follow us for daily inspiration and behind-the-scenes from the agency.',
     icon: InstagramIcon,
@@ -59,11 +60,12 @@ const platforms = [
     borderColor: 'rgba(225,48,108,0.3)',
     tag: 'Daily Content',
     tagColor: '#E1306C',
-    comingSoon: true,
+    comingSoon: false,
+    href: 'https://www.instagram.com/online_today_agency/',
   },
   {
     name: 'YouTube',
-    handle: 'Online Today Agency',
+    handle: '@Online2day-agency',
     description:
       'Long-form tutorials, creator success stories, and in-depth guides on OBS, TikTok algorithm tips, and how to grow your brand. Subscribe and level up your knowledge.',
     icon: YouTubeIcon,
@@ -72,7 +74,8 @@ const platforms = [
     borderColor: 'rgba(255,0,0,0.3)',
     tag: 'Tutorials',
     tagColor: '#FF0000',
-    comingSoon: true,
+    comingSoon: false,
+    href: 'https://www.youtube.com/@Online2day-agency',
   },
   {
     name: 'X (Twitter)',
@@ -159,7 +162,7 @@ export default function SocialPage() {
               className="text-xs text-white/40"
               style={{ fontFamily: 'Space Mono, monospace' }}
             >
-              Links being added — check back soon
+              TikTok, Instagram, and YouTube are live
             </span>
           </div>
         </motion.div>
@@ -274,7 +277,7 @@ export default function SocialPage() {
             className="text-white/30 text-sm"
             style={{ fontFamily: 'Space Mono, monospace' }}
           >
-            Links being added by the team. Come back soon or reach out on WhatsApp.
+            More channels are being added by the team. Come back soon or reach out on WhatsApp.
           </p>
         </motion.div>
       </div>
